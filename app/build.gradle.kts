@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "com.devops.tp2githubactions"
-    compileSdk = 34  // ← Changez de 35 à 34
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.devops.tp2githubactions"
-        minSdk = 21   // ← Changez de 24 à 21 pour plus de compatibilité
-        targetSdk = 34  // ← Changez de 35 à 34
+        minSdk = 21
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -37,7 +37,7 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.8"
+        kotlinCompilerExtensionVersion = "1.5.8"  // ← AJOUTEZ CETTE LIGNE
     }
 }
 
